@@ -14,8 +14,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.sanoob.trilateral.MainActivity;
 import com.sanoob.trilateral.R;
 import com.sanoob.trilateral.operation.AreaCalculator;
 import com.sanoob.trilateral.operation.TriangleSides;
