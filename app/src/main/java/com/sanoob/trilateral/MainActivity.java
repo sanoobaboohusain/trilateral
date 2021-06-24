@@ -105,7 +105,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 validateAndCalculate();
+                sideAText.getText().clear();
+                sideBText.getText().clear();
+                sideCText.getText().clear();
             }
+
         });
         sideCText.setOnKeyListener(new View.OnKeyListener() {
             @Override
